@@ -3,6 +3,8 @@ layout: archive
 title: "Conference Calendar"
 permalink: /calendar/
 author_profile: true
+redirect_from:
+  - /calendar
 ---
 
 Conferences calendar for me and my friends. For suggestions, reach me in-person or through institutional email.
