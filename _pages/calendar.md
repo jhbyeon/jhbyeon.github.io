@@ -7,6 +7,6 @@ redirect_from:
   - /calendar
 ---
 
-Conferences calendar for me and my friends. For suggestions, reach me in-person or through institutional email.
+For suggestions, reach me in-person or through institutional email.
 
 [Calendar](https://spectacular-panda-093.notion.site/Conference-Calendar-e7c276ac7c8441e4a968d54551c31a74?pvs=4)
