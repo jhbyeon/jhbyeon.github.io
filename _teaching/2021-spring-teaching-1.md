@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "Teaching Assistant 2021 Spring"
 collection: teaching
 type: "PMAP 4051 Evaluating Public Policy"
 permalink: /teaching/2021-spring-teaching-1
