@@ -12,3 +12,4 @@ Teaching assistant for Dr. Lucy Sorensen at SUNY at Albany for 2023 fall. RPAD 5
 * Online course
 * Grading
 * Discussion 
+* Tutoring
