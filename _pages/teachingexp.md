@@ -1,6 +1,6 @@
 ---
 permalink: /teachingexp/
-title: "Teaching"
+title: "Teaching Experience"
 author_profile: true
 redirect_from: 
   - /teachingexp/
