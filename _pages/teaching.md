@@ -1,11 +1,11 @@
 ---
 layout: archive
-permalink: /teaching/
+permalink: /teachingexp/
 title: "Teaching"
 author_profile: true
 redirect_from: 
-  - /teaching/
-  - /teaching.html
+  - /teachingexp/
+  - /teachingexp.html
 ---
 
 | Semester | Place | Course |
