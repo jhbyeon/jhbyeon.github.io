@@ -8,6 +8,7 @@ redirect_from:
   - /teachingexp.html
 ---
 
+
 | Semester | Place | Course |
 | -------- | ------ | ------------- |
 | 2024 Spring | SUNY at Albany | RPAD 503 Principles of Public Economics |
