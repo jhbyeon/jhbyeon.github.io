@@ -1,5 +1,4 @@
 ---
-layout: archive
 permalink: /teachingexp/
 title: "Teaching"
 author_profile: true
