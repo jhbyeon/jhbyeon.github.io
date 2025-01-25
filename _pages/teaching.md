@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 | |Semester | Place | Course |
-|---|-------- | ------ | ------------- |
+|:---:|-------- | ------ | ------------- |
 | [1](#teaching-assistant---2024-spring) | 2024 Spring | SUNY at Albany | RPAD 503 Principles of Public Economics |
 | [2](#teaching-assistant---2023-fall) | 2023 Fall| SUNY at Albany | RPAD 503 Principles of Public Economics |
 | [3](#teaching-assistant---2021-spring) |2021 Spring | Georgia State University | PMAP 4051 Evaluating Public Policy |
