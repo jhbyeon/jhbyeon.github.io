@@ -33,6 +33,7 @@ Introductory economics course for masters students (In-person)
 SUNY at Albany, Rockefeller College of Public Affairs & Policy
 Albany, NY
 
+---
 
 ## Teaching Assistant - 2023 Fall
 
@@ -50,6 +51,7 @@ Introductory economics course for masters students (Online)
 SUNY at Albany, Rockefeller College of Public Affairs & Policy
 Albany, NY
 
+---
  
 ## Teaching Assistant - 2021 Spring
 
@@ -62,6 +64,6 @@ Teaching assistant to Dr. Esra Tanyildiz
 PMAP 4051 Evaluating Public Policy
 Research methods course for undergraduate students (In-person)
 
-#### Place 
+### Place 
 Georgia State University, Andrew Young School of Policy Studies
 Atlanta, GA
