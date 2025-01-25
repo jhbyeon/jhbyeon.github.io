@@ -11,6 +11,6 @@ I'm trying to keep up with PA conferences (link below).
 Feel free to share suggestions with me in person or via institutional email.  
 
 
-<a href="[https://example.com](https://spectacular-panda-093.notion.site/Conference-Calendar-e7c276ac7c8441e4a968d54551c31a74?pvs=4)" target="_blank">Calendar</a>
+<a href="https://spectacular-panda-093.notion.site/Conference-Calendar-e7c276ac7c8441e4a968d54551c31a74?pvs=4" target="_blank">Calendar</a>
 
 [Calendar](https://spectacular-panda-093.notion.site/Conference-Calendar-e7c276ac7c8441e4a968d54551c31a74?pvs=4)
