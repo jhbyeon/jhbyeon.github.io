@@ -26,11 +26,11 @@ Teaching assistant to Dr. Shawn Bushway
 * Tutoring 
 
 ### Course 
-RPAD 503 Principles of Public Economics
+RPAD 503 Principles of Public Economics  
 Introductory economics course for masters students (In-person)
 
 ### Place 
-SUNY at Albany, Rockefeller College of Public Affairs & Policy
+SUNY at Albany, Rockefeller College of Public Affairs & Policy  
 Albany, NY
 
 ---
@@ -44,11 +44,11 @@ Teaching assistant to Dr. Lucy Sorensen
 * Discussion 
 
 ### Course 
-RPAD 503 Principles of Public Economics
+RPAD 503 Principles of Public Economics  
 Introductory economics course for masters students (Online)
 
 ### Place 
-SUNY at Albany, Rockefeller College of Public Affairs & Policy
+SUNY at Albany, Rockefeller College of Public Affairs & Policy  
 Albany, NY
 
 ---
@@ -61,9 +61,9 @@ Teaching assistant to Dr. Esra Tanyildiz
 * Prepare course materials
 
 ### Course 
-PMAP 4051 Evaluating Public Policy
+PMAP 4051 Evaluating Public Policy  
 Research methods course for undergraduate students (In-person)
 
 ### Place 
-Georgia State University, Andrew Young School of Policy Studies
+Georgia State University, Andrew Young School of Policy Studies  
 Atlanta, GA
