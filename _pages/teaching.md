@@ -26,7 +26,7 @@ Teaching assistant to Dr. Ashley Fox
 * Grading
 
 ### Course 
-RPAD 140 Introduction to Public Policy
+RPAD 140 Introduction to Public Policy  
 *Introductory policy course for undergraduate students (In-person)*
 
 ### Place 
