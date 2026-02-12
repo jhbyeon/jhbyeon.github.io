@@ -8,13 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Hello, this is Ji Hyun's personal website. 
+I am Ji Hyun, a Ph.D. candidate in Public Administration and Policy at Rockefeller College, University at Albany (SUNY). My research interests include public management, government performance, interorganizational relations, and regulatory enforcement.
 
-I am a doctoral student in public administration and policy at Rockefeller College of Public Affairs and Policy, SUNY at Albany. 
-My concentration is public management. My research interests include: 
-* Performance management
-* Interorganizational relations
-* Labor regulations 
+My dissertation investigates the relationship between administrative capacity and performance within the context of U.S. child labor regulations. Utilizing an original dataset on state-level labor enforcement budgets, my work examines how administrative capacity drives regulatory outcomes, how state-level resources interact with federal enforcement performance, and the extent to which capacity allows states to buffer against external challenges in the regulatory environment.
 
-You can reach me via email. 
-Thank you! 
+Thank you. 
