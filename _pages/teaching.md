@@ -10,11 +10,49 @@ redirect_from:
 
 | |Semester | Place | Course |
 |:---:|-------- | ------ | ------------- |
-| [1](#teaching-assistant---2025-fall) | 2025 Fall | SUNY at Albany | RPAD 140 Introduction to Public Policy (Undergrad, In-Person) |
-| [2](#teaching-assistant---2024-spring) | 2024 Spring | SUNY at Albany | RPAD 503 Principles of Public Economics (MPA, In-Person) |
-| [3](#teaching-assistant---2023-fall) | 2023 Fall| SUNY at Albany | RPAD 503 Principles of Public Economics (MPA, Online) |
-| [4](#teaching-assistant---2021-spring) |2021 Spring | Georgia State University | PMAP 4051 Evaluating Public Policy (Undergrad, In-Person) |
+| [1](#instructor---2026-fall) | 2026 Fall | University at Albany | RPAD 360 Schools and Social Inequality (Undergrad, In-Person) |
+| [2](#teaching-assistant---2026-spring) | 2026 Spring | University at Albany | RPAD 504 Data, Models, and Decisions (MPA, In-Person) |
+| [3](#teaching-assistant---2025-fall) | 2025 Fall | University at Albany | RPAD 140 Introduction to Public Policy (Undergrad, In-Person) |
+| [4](#teaching-assistant---2024-spring) | 2024 Spring | University at Albany | RPAD 503 Principles of Public Economics (MPA, In-Person) |
+| [5](#teaching-assistant---2023-fall) | 2023 Fall| University at Albany | RPAD 503 Principles of Public Economics (MPA, Online) |
+| [6](#teaching-assistant---2021-spring) |2021 Spring | Georgia State University | PMAP 4051 Evaluating Public Policy (Undergrad, In-Person) |
 
+--- 
+
+## Instructor - 2026 Fall
+
+### Role 
+Instructor 
+
+### Course 
+RPAD 360 (ASOC 399) Schools and Social Inequality   
+*Elective course for undergraduate students (In-person)*
+
+### Location  
+Rockefeller College of Public Affairs & Policy
+University at Albany, State University of New York   
+Albany, NY
+
+---
+
+## Teaching Assistant - 2026 Spring
+
+### Role 
+Teaching assistant to Dr. Stephen Holt
+
+* Tutoring
+* Grading
+
+### Course 
+RPAD 504 Data, Models, and Decisions  
+*Elective data analysis course for MPA students (In-person)*
+
+### Location 
+Rockefeller College of Public Affairs & Policy
+University at Albany, State University of New York   
+Albany, NY
+
+---
 
 ## Teaching Assistant - 2025 Fall
 
@@ -29,8 +67,9 @@ Teaching assistant to Dr. Ashley Fox
 RPAD 140 Introduction to Public Policy  
 *Introductory policy course for undergraduate students (In-person)*
 
-### Place 
-SUNY at Albany, Rockefeller College of Public Affairs & Policy  
+### Location  
+Rockefeller College of Public Affairs & Policy
+University at Albany, State University of New York   
 Albany, NY
 
 ---
@@ -49,8 +88,9 @@ Teaching assistant to Dr. Shawn Bushway
 RPAD 503 Principles of Public Economics  
 *Introductory economics course for masters students (In-person)*
 
-### Place 
-SUNY at Albany, Rockefeller College of Public Affairs & Policy  
+### Location  
+Rockefeller College of Public Affairs & Policy
+University at Albany, State University of New York   
 Albany, NY
 
 ---
@@ -67,8 +107,9 @@ Teaching assistant to Dr. Lucy Sorensen
 RPAD 503 Principles of Public Economics  
 *Introductory economics course for masters students (Online)*
 
-### Place 
-SUNY at Albany, Rockefeller College of Public Affairs & Policy  
+### Location  
+Rockefeller College of Public Affairs & Policy
+University at Albany, State University of New York   
 Albany, NY
 
 ---
@@ -84,6 +125,7 @@ Teaching assistant to Dr. Esra Tanyildiz
 PMAP 4051 Evaluating Public Policy  
 *Research methods course for undergraduate students (In-person)*
 
-### Place 
-Georgia State University, Andrew Young School of Policy Studies  
+### Location  
+Andrew Young School of Policy Studies
+Georgia State University
 Atlanta, GA
