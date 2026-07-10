@@ -8,14 +8,14 @@ redirect_from:
   - /teaching.html
 ---
 
-| |Semester | Place | Course |
+| |Semester | Course | Role | Place | 
 |:---:|-------- | ------ | ------------- |
-| [1](#instructor---2026-fall) | 2026 Fall | University at Albany | RPAD 360 Schools and Social Inequality (Undergrad, In-Person) |
-| [2](#teaching-assistant---2026-spring) | 2026 Spring | University at Albany | RPAD 504 Data, Models, and Decisions (MPA, In-Person) |
-| [3](#teaching-assistant---2025-fall) | 2025 Fall | University at Albany | RPAD 140 Introduction to Public Policy (Undergrad, In-Person) |
-| [4](#teaching-assistant---2024-spring) | 2024 Spring | University at Albany | RPAD 503 Principles of Public Economics (MPA, In-Person) |
-| [5](#teaching-assistant---2023-fall) | 2023 Fall| University at Albany | RPAD 503 Principles of Public Economics (MPA, Online) |
-| [6](#teaching-assistant---2021-spring) |2021 Spring | Georgia State University | PMAP 4051 Evaluating Public Policy (Undergrad, In-Person) |
+| [1](#instructor---2026-fall) | 2026 Fall | RPAD 360 Schools and Social Inequality (Undergrad, In-Person) | Instructor | University at Albany | 
+| [2](#teaching-assistant---2026-spring) | 2026 Spring | RPAD 504 Data, Models, and Decisions (MPA, In-Person) | TA | University at Albany |
+| [3](#teaching-assistant---2025-fall) | 2025 Fall | RPAD 140 Introduction to Public Policy (Undergrad, In-Person) | TA | University at Albany | 
+| [4](#teaching-assistant---2024-spring) | 2024 Spring | RPAD 503 Principles of Public Economics (MPA, In-Person) | TA | University at Albany |
+| [5](#teaching-assistant---2023-fall) | 2023 Fall| RPAD 503 Principles of Public Economics (MPA, Online) | TA | University at Albany | 
+| [6](#teaching-assistant---2021-spring) |2021 Spring | PMAP 4051 Evaluating Public Policy (Undergrad, In-Person) | TA | Georgia State University | 
 
 --- 
 
