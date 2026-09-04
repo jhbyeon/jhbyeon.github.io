@@ -16,30 +16,36 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   <circle cx="260" cy="200" r="150" fill="#4E79A7" fill-opacity="0.45" stroke="#2E4A6B" stroke-width="2"/>
   <circle cx="380" cy="200" r="150" fill="#F28E2B" fill-opacity="0.45" stroke="#8C5310" stroke-width="2"/>
   <circle cx="320" cy="320" r="150" fill="#59A14F" fill-opacity="0.45" stroke="#2F5C2A" stroke-width="2"/>
-  <text x="140" y="130" font-family="Georgia, serif" font-size="19" font-weight="600" fill="#1a1a1a">Personnel</text>
-  <text x="140" y="153" font-family="Georgia, serif" font-size="19" font-weight="600" fill="#1a1a1a">Management</text>
+  <text x="140" y="130" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a">Personnel</text>
+  <text x="140" y="153" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a">Management</text>
  
-  <text x="420" y="130" font-family="Georgia, serif" font-size="19" font-weight="600" fill="#1a1a1a" text-anchor="end">Interorganizational</text>
-  <text x="420" y="153" font-family="Georgia, serif" font-size="19" font-weight="600" fill="#1a1a1a" text-anchor="end">Relations</text>
+  <text x="420" y="130" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="end">Interorganizational</text>
+  <text x="420" y="153" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="end">Relations</text>
  
-  <text x="320" y="410" font-family="Georgia, serif" font-size="19" font-weight="600" fill="#1a1a1a" text-anchor="middle">Inequality</text>
+  <text x="320" y="410" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle">Inequality</text>
  
-  <text x="320" y="245" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#1a1a1a" text-anchor="middle">Government</text>
-  <text x="320" y="266" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#1a1a1a" text-anchor="middle">Performance</text>
+  <text x="320" y="245" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle">Government</text>
+  <text x="320" y="266" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle">Performance</text>
 </svg>
 </div>
+
+<br>
 
 <details open>
 <summary><h2 style="display:inline;">[1] Personnel Management and Performance</h2></summary>
 
-<details>
-<summary><strong>[1.1] How does the motivations of public employees interact to influence turnover intention?</strong></summary>
+<br>
 
+<details>
+<summary>[1.1] How does the motivations of public employees interact to influence turnover intention?</summary> 
+<br>
 Turnover is costly for government agencies, driving up recruitment and training costs while eroding institutional knowledge and service continuity. This study reconciles two competing explanations: organizational justice, where unfair treatment drives employees to leave, and public service motivation (PSM), where intrinsic dedication to public service tends to keep employees. The study resolves the tension between different types of motivation by showing perceived injustice moderates PSM's protective effect, altering its strength or even reversing it.
 
-<small>**Collaborative project with Seong Soo Oh, Jeongmin Oh, and Haehwan Jung**</small>
+<br>
 
-<small>**Published in [Public Personnel Management (PPM)](https://doi.org/10.1177/00910260261421946)**</small>
+<small>Collaborative project with Seong Soo Oh, Jeongmin Oh, and Haehwan Jung</small>
+
+<small>Published in <a href="https://doi.org/10.1177/00910260261421946">Public Personnel Management (PPM)</a></small>
 
 </details>
 
