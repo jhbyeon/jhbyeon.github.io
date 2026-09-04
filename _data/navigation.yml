@@ -9,8 +9,8 @@ main:
   - title: "Teaching"
     url: /teaching/    
 #
-  - title: "Calendar"
-    url: /calendar/
+#  - title: "Calendar"
+#    url: /calendar/
          
 #  - title: "Exercises"
 #    url: /year-archive/
