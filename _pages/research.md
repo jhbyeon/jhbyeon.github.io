@@ -19,8 +19,8 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   <text x="140" y="130" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a">Personnel</text>
   <text x="140" y="153" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a">Management</text>
  
-  <text x="450" y="130" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="end">Interorganizational</text>
-  <text x="450" y="153" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="end">Relations</text>
+  <text x="500" y="130" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="end">Interorganizational</text>
+  <text x="500" y="153" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="end">Relations</text>
  
   <text x="320" y="410" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="middle">Inequality</text>
  
@@ -36,9 +36,9 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 > Turnover is costly for government agencies, driving up recruitment and training costs while eroding institutional knowledge and service continuity. This study reconciles two competing explanations: organizational justice, where unfair treatment drives employees to leave, and public service motivation (PSM), where intrinsic dedication to public service tends to keep employees. The study resolves the tension between different types of motivation by showing perceived injustice moderates PSM's protective effect, altering its strength or even reversing it.
 
-#####  **Collaborative project with Seong Soo Oh, Jeongmin Oh, and Haehwan Jung**
+#####  Collaborative project with Seong Soo Oh, Jeongmin Oh, and Haehwan Jung
 
-#####  **Published in [Public Personnel Management (PPM)](https://doi.org/10.1177/00910260261421946)**
+#####  Published in [Public Personnel Management (PPM)](https://doi.org/10.1177/00910260261421946)
  
 ### **[1.2]** Does a gender gap in promotions exist in civil service system? 
 
