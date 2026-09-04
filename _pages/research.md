@@ -19,8 +19,8 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   <text x="140" y="130" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a">Personnel</text>
   <text x="140" y="153" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a">Management</text>
  
-  <text x="420" y="130" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="end">Interorganizational</text>
-  <text x="420" y="153" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="end">Relations</text>
+  <text x="450" y="130" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="end">Interorganizational</text>
+  <text x="450" y="153" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="end">Relations</text>
  
   <text x="320" y="410" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="middle">Inequality</text>
  
@@ -36,17 +36,17 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 > Turnover is costly for government agencies, driving up recruitment and training costs while eroding institutional knowledge and service continuity. This study reconciles two competing explanations: organizational justice, where unfair treatment drives employees to leave, and public service motivation (PSM), where intrinsic dedication to public service tends to keep employees. The study resolves the tension between different types of motivation by showing perceived injustice moderates PSM's protective effect, altering its strength or even reversing it.
 
-  **Collaborative project with Seong Soo Oh, Jeongmin Oh, and Haehwan Jung**
+#####  **Collaborative project with Seong Soo Oh, Jeongmin Oh, and Haehwan Jung**
 
-  **Published in [Public Personnel Management (PPM)](https://doi.org/10.1177/00910260261421946)**
+#####  **Published in [Public Personnel Management (PPM)](https://doi.org/10.1177/00910260261421946)**
  
 ### **[1.2]** Does a gender gap in promotions exist in civil service system? 
 
 > Unfair promotion systems waste human capital, damage institutional legitimacy, and risk demotivating capable staff. This study links to government performance by showing that persistent gender gaps in civil service promotions. The study's recommendations — improving promotion fairness, organizational culture, and female human capital development — represent concrete personnel management interventions to strengthen government performance by ensuring the most qualified individuals advance into leadership roles.
 
-  **Collaborative project with Seong Soo Oh**
+#####  **Collaborative project with Seong Soo Oh**
 
-  **Published in [Korean Policy Sciences Review](https://doi.org/10.31553/kpsr.2022.3.26.1.173)**
+#####  **Published in [Korean Policy Sciences Review](https://doi.org/10.31553/kpsr.2022.3.26.1.173)**
 
  
 ## [2] Intergovernmental Relations and Performance
@@ -55,9 +55,9 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 > How did the government's actual crisis response compare to its planned response? Using social network analysis of the 2015 MERS-CoV outbreak in Korea, this study reveals that the government's actual emergency response structure diverged significantly from its formal response plans, with responsibilities among key health authorities remaining fragmented and unclear. The findings suggest that ambiguous roles and poor interagency coordination can slow decision-making, create response gaps, and duplicate or omit critical tasks, 
 
-**Collaborative project with Yushim Kim, Seong Soo Oh and Minyoung Ku**
+##### **Collaborative project with Yushim Kim, Seong Soo Oh and Minyoung Ku**
 
-**Published in [Disaster Medicine and Public Health Preparedness](https://doi.org/10.1017/dmp.2020.32)** 
+##### **Published in [Disaster Medicine and Public Health Preparedness](https://doi.org/10.1017/dmp.2020.32)** 
 
  
 ### **[2.2]** Does the performance of one public organization spill over to affect another organization's performance? 
@@ -70,7 +70,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 > Despite declining federal agency capacity, federal child labor violations increased by 31% between 2019 and 2024. I argue that state agencies act as de facto contributors to federal enforcement of the Fair Labor Standards Act, with higher-capacity states facing lower costs to cooperate with federal efforts. Using original data on state agency budgets, I test whether state capacity predicts federal violation detection. 
 
-**Working paper (Scheduled to present at APPAM 2026, NECOPA 2026)** 
+##### **Working paper (Scheduled to present at APPAM 2026, NECOPA 2026)** 
 
 
 ## [3] Government Performance and Inequality
@@ -79,18 +79,18 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 > Contrary to the conventional belief that child labor is a past problem in the US, violations have risen by 400% over the past decade, coinciding with numerous states weakening their child labor laws. This study argues that such policy erosion stems from a combination of party coalition interests and shifting economic conditions. These findings are concerning, pointing to a fragmented intergovernmental system ill-equipped to consistently protect minors from hazardous and exploitative working conditions.
 
-**Collaborative project with Melissa A. Lyon, Lucy Sorensen, and Stephen B. Holt.** 
+##### **Collaborative project with Melissa A. Lyon, Lucy Sorensen, and Stephen B. Holt.** 
 
-**Revisions requested at Perspectives on Politics** 
+##### **Revisions requested at Perspectives on Politics** 
 
  
 ### **[3.2]** Does local demand for illegal child labor reduce school attendance? If so, which student groups are most affected?
 
 > As the demand for illegal child labor rises, so does the risk that children get pulled away from their education. Using American Community Survey (ACS) data and a shift-share instrumental variable approach, we demonstrate this relationship and find that its effects vary by race and place of residence. These findings point to an urgent need to strengthen child labor protections and enforce existing laws more effectively
 
-**Collaborative project with Lucy Sorensen, Melissa A. Lyon, and Stephen B. Holt.** 
+##### **Collaborative project with Lucy Sorensen, Melissa A. Lyon, and Stephen B. Holt.** 
 
-**[Working paper](https://edworkingpapers.com/ai25-1302) (Under review)**
+##### **[Working paper](https://edworkingpapers.com/ai25-1302) (Under review)**
 
 
 
