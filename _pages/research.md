@@ -16,109 +16,81 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   <circle cx="260" cy="200" r="150" fill="#4E79A7" fill-opacity="0.45" stroke="#2E4A6B" stroke-width="2"/>
   <circle cx="380" cy="200" r="150" fill="#F28E2B" fill-opacity="0.45" stroke="#8C5310" stroke-width="2"/>
   <circle cx="320" cy="320" r="150" fill="#59A14F" fill-opacity="0.45" stroke="#2F5C2A" stroke-width="2"/>
-  <text x="140" y="130" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a">Personnel</text>
-  <text x="140" y="153" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a">Management</text>
+  <text x="140" y="130" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a">Personnel</text>
+  <text x="140" y="153" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a">Management</text>
  
-  <text x="420" y="130" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="end">Interorganizational</text>
-  <text x="420" y="153" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="end">Relations</text>
+  <text x="420" y="130" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="end">Interorganizational</text>
+  <text x="420" y="153" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="end">Relations</text>
  
-  <text x="320" y="410" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="middle">Inequality</text>
+  <text x="320" y="410" font-family="Arial" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="middle">Inequality</text>
  
-  <text x="320" y="245" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle">Government</text>
-  <text x="320" y="266" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle">Performance</text>
+  <text x="320" y="245" font-family="Arial" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">Government</text>
+  <text x="320" y="266" font-family="Arial" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">Performance</text>
 </svg>
 </div>
 
-<br>
 
-<details open>
-<summary><h2 style="display:inline;">[1] Personnel Management and Performance</h2></summary>
+## [1] Personnel Management and Performance
+ 
+###  **[1.1]** How does the motivations of public employees interact to influence turnover intention? 
 
-<br>
+> Turnover is costly for government agencies, driving up recruitment and training costs while eroding institutional knowledge and service continuity. This study reconciles two competing explanations: organizational justice, where unfair treatment drives employees to leave, and public service motivation (PSM), where intrinsic dedication to public service tends to keep employees. The study resolves the tension between different types of motivation by showing perceived injustice moderates PSM's protective effect, altering its strength or even reversing it.
 
-<details>
-<summary>[1.1] How does the motivations of public employees interact to influence turnover intention?</summary> 
-<br>
-Turnover is costly for government agencies, driving up recruitment and training costs while eroding institutional knowledge and service continuity. This study reconciles two competing explanations: organizational justice, where unfair treatment drives employees to leave, and public service motivation (PSM), where intrinsic dedication to public service tends to keep employees. The study resolves the tension between different types of motivation by showing perceived injustice moderates PSM's protective effect, altering its strength or even reversing it.
+  **Collaborative project with Seong Soo Oh, Jeongmin Oh, and Haehwan Jung**
 
-<br>
+  **Published in [Public Personnel Management (PPM)](https://doi.org/10.1177/00910260261421946)**
+ 
+### **[1.2]** Does a gender gap in promotions exist in civil service system? 
 
-<small>Collaborative project with Seong Soo Oh, Jeongmin Oh, and Haehwan Jung</small>
+> Unfair promotion systems waste human capital, damage institutional legitimacy, and risk demotivating capable staff. This study links to government performance by showing that persistent gender gaps in civil service promotions. The study's recommendations — improving promotion fairness, organizational culture, and female human capital development — represent concrete personnel management interventions to strengthen government performance by ensuring the most qualified individuals advance into leadership roles.
 
-<small>Published in <a href="https://doi.org/10.1177/00910260261421946">Public Personnel Management (PPM)</a></small>
+  **Collaborative project with Seong Soo Oh**
 
-</details>
+  **Published in [Korean Policy Sciences Review](https://doi.org/10.31553/kpsr.2022.3.26.1.173)**
 
-<details>
-<summary><strong>[1.2] Does a gender gap in promotions exist in civil service system?</strong></summary>
+ 
+## [2] Intergovernmental Relations and Performance
+ 
+### **[2.1]** How did the organizational structure affect the response to a public health emergency? 
 
-Unfair promotion systems waste human capital, damage institutional legitimacy, and risk demotivating capable staff. This study links to government performance by showing that persistent gender gaps in civil service promotions. The study's recommendations — improving promotion fairness, organizational culture, and female human capital development — represent concrete personnel management interventions to strengthen government performance by ensuring the most qualified individuals advance into leadership roles.
+> How did the government's actual crisis response compare to its planned response? Using social network analysis of the 2015 MERS-CoV outbreak in Korea, this study reveals that the government's actual emergency response structure diverged significantly from its formal response plans, with responsibilities among key health authorities remaining fragmented and unclear. The findings suggest that ambiguous roles and poor interagency coordination can slow decision-making, create response gaps, and duplicate or omit critical tasks, 
 
-<small>**Collaborative project with Seong Soo Oh**</small>
+**Collaborative project with Yushim Kim, Seong Soo Oh and Minyoung Ku**
 
-<small>**Published in [Korean Policy Sciences Review](https://doi.org/10.31553/kpsr.2022.3.26.1.173)**</small>
+**Published in [Disaster Medicine and Public Health Preparedness](https://doi.org/10.1017/dmp.2020.32)** 
 
-</details>
+ 
+### **[2.2]** Does the performance of one public organization spill over to affect another organization's performance? 
 
-</details>
+> This paper introduces the concept of "performance spillover" — the unintended influence of one organization's performance on another's — challenging the assumption that measured performance stays within an organization's own boundaries. I define the concept, identify the conditions under which spillovers occur, and outline how organizational responses vary depending on the relationship between the affected organizations. Using panel data on U.S. public schools from 2013–2017, I find that housing agencies' performance in subsidy distribution and supply authorization produces positive spillover effects on neighboring schools' academic performance. The paper argues that recognizing performance spillover strengthens the connection between measurement and accountability in fragmented public systems.
 
-<details open>
-<summary><h2 style="display:inline;">[2] Intergovernmental Relations and Performance</h2></summary>
+**Working paper (Under review)** 
 
-<details>
-<summary><strong>[2.1] How did the organizational structure affect the response to a public health emergency?</strong></summary>
+### **[2.3]** How does government borrow capacity from others to implement a policy? 
 
-How did the government's actual crisis response compare to its planned response? Using social network analysis of the 2015 MERS-CoV outbreak in Korea, this study reveals that the government's actual emergency response structure diverged significantly from its formal response plans, with responsibilities among key health authorities remaining fragmented and unclear. The findings suggest that ambiguous roles and poor interagency coordination can slow decision-making, create response gaps, and duplicate or omit critical tasks.
+> Despite declining federal agency capacity, federal child labor violations increased by 31% between 2019 and 2024. I argue that state agencies act as de facto contributors to federal enforcement of the Fair Labor Standards Act, with higher-capacity states facing lower costs to cooperate with federal efforts. Using original data on state agency budgets, I test whether state capacity predicts federal violation detection. 
 
-<small>**Collaborative project with Yushim Kim, Seong Soo Oh and Minyoung Ku**</small>
+**Working paper (Scheduled to present at APPAM 2026, NECOPA 2026)** 
 
-<small>**Published in [Disaster Medicine and Public Health Preparedness](https://doi.org/10.1017/dmp.2020.32)**</small>
 
-</details>
+## [3] Government Performance and Inequality
+ 
+### **[3.1]** How does state-level policymaking affect the safeguarding of vulnerable minors?
 
-<details>
-<summary><strong>[2.2] Does the performance of one public organization spill over to affect another organization's performance?</strong></summary>
+> Contrary to the conventional belief that child labor is a past problem in the US, violations have risen by 400% over the past decade, coinciding with numerous states weakening their child labor laws. This study argues that such policy erosion stems from a combination of party coalition interests and shifting economic conditions. These findings are concerning, pointing to a fragmented intergovernmental system ill-equipped to consistently protect minors from hazardous and exploitative working conditions.
 
-This paper introduces the concept of "performance spillover" — the unintended influence of one organization's performance on another's — challenging the assumption that measured performance stays within an organization's own boundaries. I define the concept, identify the conditions under which spillovers occur, and outline how organizational responses vary depending on the relationship between the affected organizations. Using panel data on U.S. public schools from 2013–2017, I find that housing agencies' performance in subsidy distribution and supply authorization produces positive spillover effects on neighboring schools' academic performance. The paper argues that recognizing performance spillover strengthens the connection between measurement and accountability in fragmented public systems.
+**Collaborative project with Melissa A. Lyon, Lucy Sorensen, and Stephen B. Holt.** 
 
-<small>**Working paper (Under review)**</small>
+**Revisions requested at Perspectives on Politics** 
 
-</details>
+ 
+### **[3.2]** Does local demand for illegal child labor reduce school attendance? If so, which student groups are most affected?
 
-<details>
-<summary><strong>[2.3] How does government borrow capacity from others to implement a policy?</strong></summary>
+> As the demand for illegal child labor rises, so does the risk that children get pulled away from their education. Using American Community Survey (ACS) data and a shift-share instrumental variable approach, we demonstrate this relationship and find that its effects vary by race and place of residence. These findings point to an urgent need to strengthen child labor protections and enforce existing laws more effectively
 
-Despite declining federal agency capacity, federal child labor violations increased by 31% between 2019 and 2024. I argue that state agencies act as de facto contributors to federal enforcement of the Fair Labor Standards Act, with higher-capacity states facing lower costs to cooperate with federal efforts. Using original data on state agency budgets, I test whether state capacity predicts federal violation detection.
+**Collaborative project with Lucy Sorensen, Melissa A. Lyon, and Stephen B. Holt.** 
 
-<small>**Working paper (Scheduled to present at APPAM 2026, NECOPA 2026)**</small>
+**[Working paper](https://edworkingpapers.com/ai25-1302) (Under review)**
 
-</details>
 
-</details>
 
-<details open>
-<summary><h2 style="display:inline;">[3] Government Performance and Inequality</h2></summary>
-
-<details>
-<summary><strong>[3.1] How does state-level policymaking affect the safeguarding of vulnerable minors?</strong></summary>
-
-Contrary to the conventional belief that child labor is a past problem in the US, violations have risen by 400% over the past decade, coinciding with numerous states weakening their child labor laws. This study argues that such policy erosion stems from a combination of party coalition interests and shifting economic conditions. These findings are concerning, pointing to a fragmented intergovernmental system ill-equipped to consistently protect minors from hazardous and exploitative working conditions.
-
-<small>**Collaborative project with Melissa A. Lyon, Lucy Sorensen, and Stephen B. Holt.**</small>
-
-<small>**Revisions requested at Perspectives on Politics**</small>
-
-</details>
-
-<details>
-<summary><strong>[3.2] Does local demand for illegal child labor reduce school attendance? If so, which student groups are most affected?</strong></summary>
-
-As the demand for illegal child labor rises, so does the risk that children get pulled away from their education. Using American Community Survey (ACS) data and a shift-share instrumental variable approach, we demonstrate this relationship and find that its effects vary by race and place of residence. These findings point to an urgent need to strengthen child labor protections and enforce existing laws more effectively.
-
-<small>**Collaborative project with Lucy Sorensen, Melissa A. Lyon, and Stephen B. Holt.**</small>
-
-<small>**[Working paper](https://edworkingpapers.com/ai25-1302) (Under review)**</small>
-
-</details>
-
-</details>
