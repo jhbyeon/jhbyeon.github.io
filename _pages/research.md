@@ -44,9 +44,9 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 > Unfair promotion systems waste human capital, damage institutional legitimacy, and risk demotivating capable staff. This study links to government performance by showing that persistent gender gaps in civil service promotions. The study's recommendations — improving promotion fairness, organizational culture, and female human capital development — represent concrete personnel management interventions to strengthen government performance by ensuring the most qualified individuals advance into leadership roles.
 
-#####  **Collaborative project with Seong Soo Oh**
+#####  Collaborative project with Seong Soo Oh
 
-#####  **Published in [Korean Policy Sciences Review](https://doi.org/10.31553/kpsr.2022.3.26.1.173)**
+#####  Published in [Korean Policy Sciences Review](https://doi.org/10.31553/kpsr.2022.3.26.1.173)
 
  
 ## [2] Intergovernmental Relations and Performance
@@ -55,22 +55,22 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 > How did the government's actual crisis response compare to its planned response? Using social network analysis of the 2015 MERS-CoV outbreak in Korea, this study reveals that the government's actual emergency response structure diverged significantly from its formal response plans, with responsibilities among key health authorities remaining fragmented and unclear. The findings suggest that ambiguous roles and poor interagency coordination can slow decision-making, create response gaps, and duplicate or omit critical tasks, 
 
-##### **Collaborative project with Yushim Kim, Seong Soo Oh and Minyoung Ku**
+##### Collaborative project with Yushim Kim, Seong Soo Oh and Minyoung Ku
 
-##### **Published in [Disaster Medicine and Public Health Preparedness](https://doi.org/10.1017/dmp.2020.32)** 
+##### Published in [Disaster Medicine and Public Health Preparedness](https://doi.org/10.1017/dmp.2020.32)
 
  
 ### **[2.2]** Does the performance of one public organization spill over to affect another organization's performance? 
 
 > This paper introduces the concept of "performance spillover" — the unintended influence of one organization's performance on another's — challenging the assumption that measured performance stays within an organization's own boundaries. I define the concept, identify the conditions under which spillovers occur, and outline how organizational responses vary depending on the relationship between the affected organizations. Using panel data on U.S. public schools from 2013–2017, I find that housing agencies' performance in subsidy distribution and supply authorization produces positive spillover effects on neighboring schools' academic performance. The paper argues that recognizing performance spillover strengthens the connection between measurement and accountability in fragmented public systems.
 
-**Working paper (Under review)** 
+##### Working paper (Under review)
 
 ### **[2.3]** How does government borrow capacity from others to implement a policy? 
 
 > Despite declining federal agency capacity, federal child labor violations increased by 31% between 2019 and 2024. I argue that state agencies act as de facto contributors to federal enforcement of the Fair Labor Standards Act, with higher-capacity states facing lower costs to cooperate with federal efforts. Using original data on state agency budgets, I test whether state capacity predicts federal violation detection. 
 
-##### **Working paper (Scheduled to present at APPAM 2026, NECOPA 2026)** 
+##### Working paper (Scheduled to present at APPAM 2026, NECOPA 2026)
 
 
 ## [3] Government Performance and Inequality
@@ -79,18 +79,18 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 > Contrary to the conventional belief that child labor is a past problem in the US, violations have risen by 400% over the past decade, coinciding with numerous states weakening their child labor laws. This study argues that such policy erosion stems from a combination of party coalition interests and shifting economic conditions. These findings are concerning, pointing to a fragmented intergovernmental system ill-equipped to consistently protect minors from hazardous and exploitative working conditions.
 
-##### **Collaborative project with Melissa A. Lyon, Lucy Sorensen, and Stephen B. Holt.** 
+##### Collaborative project with Melissa A. Lyon, Lucy Sorensen, and Stephen B. Holt.
 
-##### **Revisions requested at Perspectives on Politics** 
+##### Revisions requested at Perspectives on Politics
 
  
 ### **[3.2]** Does local demand for illegal child labor reduce school attendance? If so, which student groups are most affected?
 
 > As the demand for illegal child labor rises, so does the risk that children get pulled away from their education. Using American Community Survey (ACS) data and a shift-share instrumental variable approach, we demonstrate this relationship and find that its effects vary by race and place of residence. These findings point to an urgent need to strengthen child labor protections and enforce existing laws more effectively
 
-##### **Collaborative project with Lucy Sorensen, Melissa A. Lyon, and Stephen B. Holt.** 
+##### Collaborative project with Lucy Sorensen, Melissa A. Lyon, and Stephen B. Holt.
 
-##### **[Working paper](https://edworkingpapers.com/ai25-1302) (Under review)**
+##### [Working paper](https://edworkingpapers.com/ai25-1302) (Under review)
 
 
 
