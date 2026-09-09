@@ -8,8 +8,6 @@ redirect_from:
   - /teaching.html
 ---
 
-# Teaching Experience
-
 
 | |Semester | Course Name | Role | Place | 
 |:---:|-------- | ------ | ------ | ------------- |
