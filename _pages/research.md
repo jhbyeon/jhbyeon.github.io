@@ -5,11 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-Ji Hyun studies how governments perform and why it matters, with particular attention to [1] personnel management, [2] interorganizational relations, and [3] inequality. 
-
-{% if author.googlescholar %}
-You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+Ji Hyun studies how governments perform and why it matters, with particular attention to [1] [personnel management](#1-personnel-management-and-performance),  [2] [interorganizational relations](#2-intergovernmental-relations-and-performance), and [3] [inequality](#3-government-performance-and-inequality). 
 
 <div align="center">
 <svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" style="max-width: 560px; width: 100%; height: auto;">
