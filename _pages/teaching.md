@@ -8,6 +8,9 @@ redirect_from:
   - /teaching.html
 ---
 
+# Teaching Experience
+
+
 | |Semester | Course Name | Role | Place | 
 |:---:|-------- | ------ | ------ | ------------- |
 | [1](#instructor---2026-fall) | 2026 Fall | Schools and Social Inequality | Instructor | University at Albany | 
@@ -20,70 +23,60 @@ redirect_from:
 --- 
 
 ## Instructor - 2026 Fall
-RPAD 360 (ASOC 399): Schools and Social Inequality  
-&nbsp;&nbsp;&nbsp;&nbsp;Undergraduate policy elective course (in-person)  
-Instructor of Record  
-
-Rockefeller College of Public Affairs & Policy  
-University at Albany, State University of New York  
-Albany, New York  
+**RPAD 360 / ASOC 399 — Schools and Social Inequality**
+- Undergraduate policy elective course (in-person)
+- Role: Instructor of Record
+- School: Rockefeller College of Public Affairs & Policy, University at Albany, State University of New York
+- Location: Albany, New York
 
 ---
 
 ## Teaching Assistant - 2026 Spring
-RPAD 504: Data, Models, and Decisions  
-&nbsp;&nbsp;&nbsp;&nbsp;MPA-level data analysis course (in-person)  
-Teaching assistant to Dr. Stephen Holt  
-&nbsp;&nbsp;&nbsp;&nbsp;For tutoring and grading  
-
-Rockefeller College of Public Affairs & Policy  
-University at Albany, State University of New York  
-Albany, New York  
+**RPAD 504 — Data, Models, and Decisions**
+- MPA-level data analysis course (in-person)
+- Role: Teaching assistant to Dr. Stephen Holt
+- Responsibilities: tutoring and grading
+- School: Rockefeller College of Public Affairs & Policy, University at Albany, State University of New York
+- Location: Albany, New York
 
 --- 
 
 ## Teaching Assistant - 2025 Fall
-RPAD 140: Introduction to Public Policy  
-&nbsp;&nbsp;&nbsp;&nbsp;Undergraduate policy introductory course (in-person)  
-Teaching assistant to Dr. Ashley Fox  
-&nbsp;&nbsp;&nbsp;&nbsp;For leading discussions, developing course materials, and grading  
-
-Rockefeller College of Public Affairs & Policy  
-University at Albany, State University of New York  
-Albany, New York  
+**RPAD 140 — Introduction to Public Policy**
+- Undergraduate policy introductory course (in-person)
+- Role: Teaching assistant to Dr. Ashley Fox
+- Responsibilities: leading discussions, holding office hours, and grading
+- School: Rockefeller College of Public Affairs & Policy, University at Albany, State University of New York
+- Location: Albany, New York
 
 ---
 
 ## Teaching Assistant - 2024 Spring
-RPAD 503: Principles of Public Economics  
-&nbsp;&nbsp;&nbsp;&nbsp;MPA-level economics introductory course (in-person)  
-Teaching assistant to Dr. Shawn Bushway  
-&nbsp;&nbsp;&nbsp;&nbsp;For preparing course materials, leading in-class exercises, tutoring, and grading  
-
-Rockefeller College of Public Affairs & Policy  
-University at Albany, State University of New York  
-Albany, New York  
+**RPAD 503 — Principles of Public Economics**
+- MPA-level economics introductory course (in-person)
+- Role: Teaching assistant to Dr. Shawn Bushway
+- Responsibilities: preparing course materials, leading in-class exercises, tutoring, and grading
+- School: Rockefeller College of Public Affairs & Policy, University at Albany, State University of New York
+- Location: Albany, New York
 
 --- 
 
 ## Teaching Assistant - 2023 Fall
-RPAD 503: Principles of Public Economics  
-&nbsp;&nbsp;&nbsp;&nbsp;MPA-level economics introductory course (online)  
-Teaching assistant to Dr. Lucy Sorensen  
-&nbsp;&nbsp;&nbsp;&nbsp;For facilitating discussions and grading  
-
-Rockefeller College of Public Affairs & Policy  
-University at Albany, State University of New York  
-Albany, New York  
+**RPAD 503 — Principles of Public Economics**
+- MPA-level economics introductory course (online)
+- Teaching assistant to Dr. Lucy Sorensen
+- Responsibilities: facilitating discussions, holding office hours, and grading
+- School: Rockefeller College of Public Affairs & Policy, University at Albany, State University of New York
+- Location: Albany, New York
 
 ---
  
 ## Teaching Assistant - 2021 Spring
-PMAP 4051: Evaluating Public Policy  
-&nbsp;&nbsp;&nbsp;&nbsp;Undergraduate research methods course (in-person)  
-Teaching assistant to Dr. Esra Tanyildiz  
-&nbsp;&nbsp;&nbsp;&nbsp;For developing course materials  
+**PMAP 4051 — Evaluating Public Policy**
+- Undergraduate research methods course (in-person)
+- Teaching assistant to Dr. Esra Tanyildiz
+- Responsibilities: developing course materials
+- School: Andrew Young School of Policy Studies, Georgia State University
+- Location: Atlanta, Georgia
 
-Andrew Young School of Policy Studies  
-Georgia State University  
-Atlanta, Georgia  
+
