@@ -90,3 +90,11 @@ Ji Hyun studies how governments perform and why it matters, with particular atte
 
 
 
+### **[3.2]** Does PFML increase the time parents can allocate to family and health needs?
+
+> Several U.S. states have enacted paid family and medical leave (PFML) policies to ease the burden of taking time off for workers' newborn care, health recovery, or family caregiving. Focusing on parents of newborns, we examine whether this workplace policy actually increases the time parents can devote to family and health needs. Given the traditionally gendered division of caregiving labor, we further examine how the policy shapes time use in childcare, employment, and household chores by gender, in order to assess whether it reduces gender inequalities in caregiving and career advancement.
+
+##### Collaborative project with Katie Vinopal, Stephen B. Holt, Taryn Morrissey, and Madeleine Maylath.
+
+##### Working paper (Under review)
+
