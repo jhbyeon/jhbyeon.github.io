@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School and Social Inequality</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b1533; --panel:#13235a; --tile:#1b3a8f; --tile-hover:#2449b0; --used:#0f1c45;
+    --gold:#ffcc4d; --ink:#f4f6ff; --muted:#a9b4dc; --line:rgba(255,255,255,.12);
+    --ok:#3ccf8e; --bad:#ff6b6b;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{background:radial-gradient(1200px 600px at 50% -10%, #1d3480 0%, var(--bg) 60%);color:var(--ink);
+    font-family:Inter,system-ui,sans-serif;display:flex;flex-direction:column;min-height:100vh}
+  button{font:inherit;cursor:pointer}
+  header{display:flex;align-items:center;gap:12px;padding:14px 20px}
+  header h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:clamp(20px,2.6vw,32px);margin:0;flex:1;letter-spacing:.2px}
+  .btn{background:rgba(255,255,255,.08);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 14px;font-size:14px}
+  .btn:hover{background:rgba(255,255,255,.16)}
+  .btn.primary{background:var(--gold);color:#1a1a1a;border-color:var(--gold);font-weight:600}
+  .btn.primary:hover{filter:brightness(1.05)}
+  main{flex:1;display:flex;flex-direction:column;padding:0 20px 16px;gap:16px}
+  #board{flex:1;display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:1fr;gap:8px;min-height:360px}
+  .cat{background:var(--panel);border-radius:10px;display:flex;align-items:center;justify-content:center;text-align:center;
+    padding:8px;font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(15px,2vw,28px);text-transform:uppercase;line-height:1.15;border-bottom:3px solid var(--gold)}
+  .tile{background:var(--tile);border:none;border-radius:10px;color:var(--gold);font-family:"Bricolage Grotesque",sans-serif;
+    font-weight:800;font-size:clamp(28px,4.5vw,64px);text-shadow:0 2px 0 rgba(0,0,0,.35);transition:transform .12s, background .12s}
+  .tile:hover{background:var(--tile-hover);transform:translateY(-2px)}
+  .tile.used{background:var(--used);color:transparent;text-shadow:none}
+  .tile.used:hover{color:rgba(255,255,255,.25)}
+  #scores{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+  .team{background:var(--panel);border-radius:12px;padding:10px 12px;border-top:5px solid var(--c);display:flex;flex-direction:column;align-items:center;gap:4px}
+  .team input{background:transparent;border:none;color:var(--ink);text-align:center;font:600 clamp(13px,1.4vw,18px) Inter,sans-serif;width:100%;border-radius:6px;padding:2px}
+  .team input:focus{outline:2px solid var(--line)}
+  .score{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:clamp(24px,3vw,40px)}
+  .score.neg{color:var(--bad)}
+  .adj{display:flex;gap:6px}
+  .adj button{background:rgba(255,255,255,.08);border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:2px 10px;font-size:13px}
+  .adj button:hover{color:var(--ink)}
+
+  .overlay{position:fixed;inset:0;background:rgba(5,10,30,.82);display:none;align-items:center;justify-content:center;padding:20px;z-index:10}
+  .overlay.open{display:flex}
+  .card{background:linear-gradient(180deg,#1f3f9a,#162f78);border-radius:18px;width:min(1100px,100%);max-height:100%;overflow:auto;
+    padding:28px 32px;box-shadow:0 20px 60px rgba(0,0,0,.5);display:flex;flex-direction:column;gap:18px}
+  .meta{color:var(--gold);font-weight:600;letter-spacing:.5px;text-transform:uppercase;font-size:15px}
+  .q{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(24px,3.8vw,48px);line-height:1.2;text-align:center;padding:20px 0;white-space:pre-wrap}
+  .q.long{font-size:clamp(20px,2.6vw,34px);text-align:left;padding:8px 0}
+  .a{background:rgba(0,0,0,.22);border-radius:12px;padding:16px 20px;font-size:clamp(18px,2.4vw,30px);text-align:center;display:none;white-space:pre-wrap}
+  .a.show{display:block}
+  .a b{color:var(--gold)}
+  .award{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+  .aw{background:rgba(0,0,0,.2);border-radius:10px;padding:8px;display:flex;flex-direction:column;align-items:center;gap:6px;border-top:4px solid var(--c)}
+  .aw .nm{font-weight:600;font-size:14px;text-align:center}
+  .aw .row{display:flex;gap:6px}
+  .aw button{border:1px solid var(--line);background:rgba(255,255,255,.08);color:var(--ink);border-radius:8px;padding:6px 10px;font-size:14px;font-weight:600}
+  .aw button.ok.on{background:var(--ok);border-color:var(--ok);color:#06281a}
+  .aw button.bad.on{background:var(--bad);border-color:var(--bad);color:#2b0606}
+  .actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .hint{color:var(--muted);font-size:12px;text-align:center}
+
+  /* editor */
+  .editor h2{margin:0;font-family:"Bricolage Grotesque",sans-serif}
+  .editor label{font-size:13px;color:var(--muted);display:block;margin-bottom:4px}
+  .editor input,.editor textarea{width:100%;background:rgba(0,0,0,.25);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:8px;font:14px Inter,sans-serif;resize:vertical}
+  .ecat{border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:8px}
+  .ecat .catname{font-weight:700;font-size:16px}
+  .erow{display:grid;grid-template-columns:56px 1fr 1fr;gap:8px;align-items:start}
+  .erow .v{color:var(--gold);font-weight:700;padding-top:8px}
+  .msg{color:var(--ok);font-size:13px;min-height:18px;text-align:center}
+  @media (max-width:700px){ #scores,.award{grid-template-columns:repeat(2,1fr)} .erow{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">School and Social Inequality</h1>
+  <button class="btn" id="editBtn">Edit questions</button>
+  <button class="btn" id="newBtn">New game</button>
+  <button class="btn" id="fsBtn">Full screen</button>
+</header>
+<main>
+  <div id="board"></div>
+  <div id="scores"></div>
+</main>
+
+<!-- Question view -->
+<div class="overlay" id="qView">
+  <div class="card">
+    <div class="meta" id="qMeta"></div>
+    <div class="q" id="qText"></div>
+    <div class="a" id="aText"></div>
+    <div class="award" id="award"></div>
+    <div class="actions">
+      <button class="btn primary" id="revealBtn">Show answer</button>
+      <button class="btn" id="closeBtn">Back to board</button>
+    </div>
+    <div class="hint">Space = show answer · Esc = back to board · ✓ adds points, ✗ takes them away (click again to undo)</div>
+  </div>
+</div>
+
+<!-- Confirm dialog -->
+<div class="overlay" id="confirmView">
+  <div class="card" style="max-width:460px;text-align:center">
+    <div id="confirmText" style="font-size:18px"></div>
+    <div class="actions">
+      <button class="btn primary" id="confirmYes">Yes</button>
+      <button class="btn" id="confirmNo">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Editor -->
+<div class="overlay" id="editView">
+  <div class="card editor">
+    <h2>Edit questions</h2>
+    <div><label>Game title</label><input id="eTitle"></div>
+    <div id="eCats" style="display:flex;flex-direction:column;gap:12px"></div>
+    <div class="ecat">
+      <div class="catname">Move this game to another computer</div>
+      <label>Copy the game code, then paste it into the same box on the other computer and press "Load code".</label>
+      <textarea id="eCode" rows="3" placeholder="Paste a game code here"></textarea>
+      <div class="actions" style="justify-content:flex-start">
+        <button class="btn" id="copyCode">Copy game code</button>
+        <button class="btn" id="loadCode">Load code</button>
+      </div>
+    </div>
+    <div class="msg" id="eMsg"></div>
+    <div class="actions">
+      <button class="btn primary" id="eSave">Save</button>
+      <button class="btn" id="eCancel">Cancel</button>
+      <button class="btn" id="eReset">Restore original questions</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const VALUES=[100,200,300];
+const COLORS=["#ff6b6b","#ffcc4d","#3ccf8e","#4dabff","#c38bff"];
+const SAMPLE={
+ "title": "School and Social Inequality",
+ "categories": [
+  {
+   "name": "Theory",
+   "clues": [
+    {
+     "q": "Which of the following best describes Tiebout sorting? If you don't like your school district, \n\nA. Go on strike.\nB. File a lawsuit.\nC. Move to a different district.\nD. Vote for different school board members.\nE. Take their complaints to the media.",
+     "a": "C. Move to a different district."
+    },
+    {
+     "q": "When one more person can consume a good without reducing how much is available to anyone else, the good is:\n\nA. Non-excludable\nB. Non-rival\nC. Rival\nD. Excludable\nE. Private",
+     "a": "B. Non-rival"
+    },
+    {
+     "q": "According to Ladson-Billings, why have schools failed to close the achievement gap?\n\nA. Public schools actively segregate students.\nB. Closing the gap is not a core goal of U.S. education.\nC. Research shows schools have no capacity to address the gap.\nD. The gap is driven entirely by the economy, not education policy.\nE. The gap reflects a long-term “education debt” that can’t be resolved in the short term.",
+     "a": "E. The gap reflects a long-term “education debt” that can’t be resolved in the short term."
+    }
+   ]
+  },
+  {
+   "name": "Practice",
+   "clues": [
+    {
+     "q": "What problem is an educational accountability system mainly designed to address?\n\nA. Information asymmetry\nB. Funding inequality\nC. Slower cognitive development\nD. Unsafe school climates\nE. A mismatch between supply and demand",
+     "a": "A. Information asymmetry between principals and agents"
+    },
+    {
+     "q": "In school finance, the principle that students with different needs should receive different levels of resources is known as:\n\nA. Horizontal equity\nB. Vertical equity\nC. Adequacy\nD. Economic austerity\nE. Responsiveness",
+     "a": "B. Vertical equity"
+    },
+    {
+     "q": "Why has the impact of court-ordered desegregation weakened over time?\n\nA. Schools ignore court orders.\nB. Orders end when judges retire.\nC. Courts can order busing across district lines.\nD. Orders depend on changing political leaders.\nE. Orders end once districts show good-faith compliance.",
+     "a": "E. Orders end once districts show good-faith compliance."
+    }
+   ]
+  },
+  {
+   "name": "Practice",
+   "clues": [
+    {
+     "q": "Which federal early childhood program provides education, health, nutrition, and parent involvement services to low-income children ages 3–5 and their families?\n\nA. No Child Left Behind\nB. Universal Pre-K\nC. Head Start\nD. Charter Schools\nE. Magnet Schools",
+     "a": "C. Head Start"
+    },
+    {
+     "q": "Which of the following statements about higher education admissions is NOT correct?\n\nA. Holistic admissions consider standardized test scores along with applicants’ activities and backgrounds.\nB. Affirmative action gives admissions preferences to applicants from specific groups.\nC. Test-optional admissions let applicants choose whether to submit standardized test scores.\nD. Lottery admissions are highly politically feasible.",
+     "a": "D. Lottery admissions are highly politically feasible."
+    },
+    {
+     "q": "Which of the following best describes the “social efficiency” goal of public education?\n\nA. Preparing productive workers\nB. Helping students attain desirable positions\nC. Helping students internalize social norms\nD. Providing equal opportunities for learning\nE. Preparing active citizens",
+     "a": "A. Preparing productive workers "
+    }
+   ]
+  }
+ ]
+};
+const KEY="class-quiz-board-ssi";
+let state;
+function fresh(){return {data:JSON.parse(JSON.stringify(SAMPLE)),used:[],scores:[0,0,0,0,0],teams:["Team 1","Team 2","Team 3","Team 4","Team 5"]};}
+function load(){try{const s=JSON.parse(localStorage.getItem(KEY));if(s&&s.data&&s.data.categories)return s;}catch(e){}return fresh();}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}}
+state=load();
+
+const $=id=>document.getElementById(id);
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+function renderBoard(){
+  $("title").textContent=state.data.title||"Class Quiz Board";
+  document.title=state.data.title||"Class Quiz Board";
+  const b=$("board");b.innerHTML="";
+  state.data.categories.forEach(c=>{const d=document.createElement("div");d.className="cat";d.textContent=c.name;b.appendChild(d);});
+  VALUES.forEach((v,r)=>{
+    state.data.categories.forEach((c,ci)=>{
+      const id=ci+"-"+r;const t=document.createElement("button");
+      t.className="tile"+(state.used.includes(id)?" used":"");t.textContent=v;
+      t.onclick=()=>openQ(ci,r);b.appendChild(t);
+    });
+  });
+}
+function renderScores(){
+  const s=$("scores");s.innerHTML="";
+  state.teams.forEach((n,i)=>{
+    const d=document.createElement("div");d.className="team";d.style.setProperty("--c",COLORS[i]);
+    d.innerHTML=`<input value="${esc(n)}" aria-label="Team name"><div class="score ${state.scores[i]<0?"neg":""}">${state.scores[i]}</div>
+      <div class="adj"><button data-d="-100">−100</button><button data-d="100">+100</button></div>`;
+    d.querySelector("input").oninput=e=>{state.teams[i]=e.target.value;save();};
+    d.querySelectorAll(".adj button").forEach(btn=>btn.onclick=()=>{state.scores[i]+=+btn.dataset.d;save();renderScores();});
+    s.appendChild(d);
+  });
+}
+
+let cur=null,awards=[];
+function openQ(ci,r){
+  cur={ci,r};awards=[0,0,0,0,0];
+  const c=state.data.categories[ci],clue=c.clues[r];
+  $("qMeta").textContent=c.name+" · "+VALUES[r];
+  $("qText").textContent=clue.q;$("qText").classList.toggle("long",clue.q.length>140||clue.q.includes("\n"));
+  $("aText").innerHTML="<b>Answer:</b> "+esc(clue.a);
+  $("aText").classList.remove("show");
+  $("revealBtn").style.display="";
+  renderAward();
+  $("qView").classList.add("open");
+}
+function renderAward(){
+  const v=VALUES[cur.r],w=$("award");w.innerHTML="";
+  state.teams.forEach((n,i)=>{
+    const d=document.createElement("div");d.className="aw";d.style.setProperty("--c",COLORS[i]);
+    d.innerHTML=`<div class="nm">${esc(n)}</div><div class="row">
+      <button class="ok ${awards[i]===1?"on":""}">✓ +${v}</button><button class="bad ${awards[i]===-1?"on":""}">✗ −${v}</button></div>`;
+    const [ok,bad]=d.querySelectorAll("button");
+    ok.onclick=()=>setAward(i,1);bad.onclick=()=>setAward(i,-1);
+    w.appendChild(d);
+  });
+}
+function setAward(i,dir){
+  const v=VALUES[cur.r];
+  state.scores[i]-=awards[i]*v;            // undo previous
+  awards[i]=(awards[i]===dir)?0:dir;       // toggle
+  state.scores[i]+=awards[i]*v;
+  save();renderAward();renderScores();
+}
+function reveal(){$("aText").classList.add("show");$("revealBtn").style.display="none";}
+function closeQ(){
+  if(!cur)return;const id=cur.ci+"-"+cur.r;
+  if(!state.used.includes(id))state.used.push(id);
+  save();cur=null;$("qView").classList.remove("open");renderBoard();
+}
+$("revealBtn").onclick=reveal;$("closeBtn").onclick=closeQ;
+
+let confirmCb=null;
+function ask(text,cb){$("confirmText").textContent=text;confirmCb=cb;$("confirmView").classList.add("open");}
+$("confirmYes").onclick=()=>{$("confirmView").classList.remove("open");if(confirmCb)confirmCb();};
+$("confirmNo").onclick=()=>$("confirmView").classList.remove("open");
+
+$("newBtn").onclick=()=>ask("Start a new game? Scores and used tiles will be reset (your questions stay).",()=>{
+  state.used=[];state.scores=[0,0,0,0,0];save();renderBoard();renderScores();});
+
+$("fsBtn").onclick=()=>{try{if(!document.fullscreenElement)document.documentElement.requestFullscreen().catch(()=>{});else document.exitFullscreen();}catch(e){}};
+
+/* Editor */
+function openEditor(data){
+  const d=data||state.data;
+  $("eTitle").value=d.title||"";$("eMsg").textContent="";$("eCode").value="";
+  const box=$("eCats");box.innerHTML="";
+  d.categories.forEach((c,ci)=>{
+    const div=document.createElement("div");div.className="ecat";
+    let h=`<div><label>Category ${ci+1}</label><input class="cn" value="${esc(c.name)}"></div>`;
+    VALUES.forEach((v,r)=>{
+      h+=`<div class="erow"><div class="v">${v}</div>
+        <div><label>Question</label><textarea class="eq" rows="2">${esc(c.clues[r].q)}</textarea></div>
+        <div><label>Answer</label><textarea class="ea" rows="2">${esc(c.clues[r].a)}</textarea></div></div>`;
+    });
+    div.innerHTML=h;box.appendChild(div);
+  });
+  $("editView").classList.add("open");
+}
+function readEditor(){
+  return {title:$("eTitle").value.trim()||"Class Quiz Board",
+    categories:[...$("eCats").children].map(div=>{
+      const qs=div.querySelectorAll(".eq"),as=div.querySelectorAll(".ea");
+      return {name:div.querySelector(".cn").value,clues:VALUES.map((v,r)=>({q:qs[r].value,a:as[r].value}))};
+    })};
+}
+$("editBtn").onclick=()=>openEditor();
+$("eCancel").onclick=()=>$("editView").classList.remove("open");
+$("eSave").onclick=()=>{state.data=readEditor();save();renderBoard();$("editView").classList.remove("open");};
+$("eReset").onclick=()=>ask("Replace all questions with the original questions?",()=>{openEditor(JSON.parse(JSON.stringify(SAMPLE)));$("eMsg").textContent="Original questions loaded. Press Save to keep them.";});
+$("copyCode").onclick=()=>{
+  const code=btoa(unescape(encodeURIComponent(JSON.stringify(readEditor()))));
+  $("eCode").value=code;$("eCode").select();
+  try{navigator.clipboard.writeText(code).then(()=>$("eMsg").textContent="Game code copied.",()=>$("eMsg").textContent="Code is in the box. Select it and copy (Ctrl/Cmd+C).");}
+  catch(e){$("eMsg").textContent="Code is in the box. Select it and copy (Ctrl/Cmd+C).";}
+};
+$("loadCode").onclick=()=>{
+  try{const d=JSON.parse(decodeURIComponent(escape(atob($("eCode").value.trim()))));
+    if(!d.categories||d.categories.length!==3)throw 0;openEditor(d);$("eMsg").textContent="Code loaded. Press Save to keep it.";}
+  catch(e){$("eMsg").style.color="var(--bad)";$("eMsg").textContent="That code didn't work. Check that you copied all of it.";setTimeout(()=>$("eMsg").style.color="",3000);}
+};
+
+document.addEventListener("keydown",e=>{
+  if(!$("qView").classList.contains("open"))return;
+  if(e.target.tagName==="INPUT"||e.target.tagName==="TEXTAREA")return;
+  if(e.key===" "){e.preventDefault();reveal();}
+  if(e.key==="Escape")closeQ();
+});
+
+renderBoard();renderScores();
+</script>
+</body>
+</html>
